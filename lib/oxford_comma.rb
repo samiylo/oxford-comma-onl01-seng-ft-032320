@@ -6,5 +6,6 @@ def oxford_comma(array)
     last = array[-1]
     lastNew = "and #{last}"
     array.pop
+    array << lastNew
   
 end
