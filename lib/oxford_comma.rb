@@ -1,6 +1,6 @@
 def oxford_comma(array)
   if array.length < 2 
-    only_item = array.index[0]
+    only_item = array[0]
     
     
   elsif array.length == 2
