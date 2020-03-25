@@ -4,6 +4,6 @@ def oxford_comma(array)
     
   elsif array.length > 2 
     last = array[-1]
-    
+    lastNew = "and #{last}"
   
 end
